@@ -78,21 +78,21 @@
                         <li>
                             <NuxtLink to="/portfolio" class="inline-block transition hover:scale-110 hover:text-secondary">Portfolio</NuxtLink>
                         </li>
-                        <li>
-                            <NuxtLink to="/services" class="inline-block transition hover:scale-110 hover:text-secondary">Service</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/team" class="inline-block transition hover:scale-110 hover:text-secondary">Team</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/about-us" class="inline-block transition hover:scale-110 hover:text-secondary">About Us</NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="/career" class="inline-block transition hover:scale-110 hover:text-secondary">Career</NuxtLink>
-                        </li>
+<!--                        <li>-->
+<!--                            <NuxtLink to="/services" class="inline-block transition hover:scale-110 hover:text-secondary">Service</NuxtLink>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <NuxtLink to="/team" class="inline-block transition hover:scale-110 hover:text-secondary">Team</NuxtLink>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <NuxtLink to="/about-us" class="inline-block transition hover:scale-110 hover:text-secondary">About Us</NuxtLink>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <NuxtLink to="/career" class="inline-block transition hover:scale-110 hover:text-secondary">Career</NuxtLink>-->
+<!--                        </li>-->
                     </ul>
                 </div>
-                <div>
+                <div class="invisible">
                     <ul class="flex flex-col gap-3 font-bold">
                         <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Services</li>
                         <li>
@@ -109,7 +109,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="invisible">
                     <ul class="flex flex-col gap-3 font-bold">
                         <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Legal</li>
                         <li>
@@ -129,9 +129,9 @@
                 <div>
                     <ul class="flex flex-col gap-3 font-bold">
                         <li class="mb-3 text-lg font-extrabold text-black dark:text-white">Information</li>
-                        <li>164 Brighton Ave, Allston, Maine, U.S. - 02134</li>
+                        <li>Jacobusstraat 55, 3012JM Rotterdam, The Netherlands</li>
                         <li>
-                            <a href="tel:+(617) 254-2333" class="inline-block transition hover:scale-110 hover:text-secondary">+(617) 254-2333</a>
+                            <a href="mailto:hello@honestdev.io" class="inline-block transition hover:scale-110 hover:text-secondary">hello@honestdev.io</a>
                         </li>
                     </ul>
                 </div>
@@ -142,7 +142,7 @@
                 <div class="flex flex-col items-center justify-between text-center font-bold dark:text-white md:flex-row">
                     <div>
                         Copyright© {{ new Date().getFullYear() }}
-                        <a href="javascript:" class="text-primary transition hover:text-secondary">Plurk Technologies Pvt. Ltd.</a>
+                        <a href="javascript:" class="text-primary transition hover:text-secondary">HonestDev.io - 2024</a>
                     </div>
                     <div>
                         Need help? Visit the
@@ -153,3 +153,5 @@
         </div>
     </footer>
 </template>
+<script setup lang="ts">
+</script>

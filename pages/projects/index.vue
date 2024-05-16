@@ -6,7 +6,7 @@
           <div class="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
             <div class="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
               <h6>Our Projects</h6>
-              <h4 class="!text-white">Our projects - All with a honest goal.</h4>
+              <h4 class="!text-white">Our projects - All with an honest goal.</h4>
             </div>
             <div class="relative" :data-aos="store.direction === 'rtl' ? 'fade-right' : 'fade-left'" data-aos-duration="1000">
               <svg
