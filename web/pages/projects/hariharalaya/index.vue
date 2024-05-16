@@ -120,3 +120,7 @@ import { useAppStore } from '@/stores/index';
 const store = useAppStore();
 useHead({ title: 'Hariharalaya app' });
 </script>
+
+Setting alarms that will ring the gong sound heard at the retreat.
+Configuring lengths of the different breath exercises and meditation.
+Configuring the voice that guides you through the exercises.

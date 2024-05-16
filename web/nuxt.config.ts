@@ -33,5 +33,5 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    modules: ['@pinia/nuxt', "@nuxtjs/mdc"],
+    modules: ['@pinia/nuxt', "@nuxtjs/mdc", "@nuxt/image"],
 });

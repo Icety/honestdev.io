@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.7.0",
     "@nuxtjs/mdc": "latest",
     "@tailwindcss/typography": "^0.5.13",
     "@types/aos": "^3.0.4",
