@@ -142,7 +142,7 @@
 </template>
 <script setup lang="ts">
     import { Swiper, SwiperSlide } from 'swiper/vue';
-    import { Autoplay, Navigation } from 'swiper';
+    import { Autoplay, Navigation } from 'swiper/modules';
     import 'swiper/css/navigation';
     import 'swiper/css';
     import { useAppStore } from '@/stores/index';

@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            title: 'Plurk – Tailwind CSS Multipurpose Landing Templates',
-            titleTemplate: '%s | Plurk – Tailwind CSS Multipurpose Landing Templates',
+            title: 'HonestDev.io - Your honest technical partner',
+            titleTemplate: '%s | HonestDev.io - Your honest technical partner',
             htmlAttrs: {
                 lang: 'en',
             },
@@ -33,5 +33,5 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    modules: ['@pinia/nuxt'],
+    modules: ['@pinia/nuxt', "@nuxtjs/mdc"],
 });
